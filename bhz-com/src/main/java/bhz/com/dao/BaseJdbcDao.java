@@ -105,6 +105,7 @@ public class BaseJdbcDao {
      * @param sql SQL语句
      * @param args 参数
      * @return JSONObject JSON数据
+     * 查询一条记录
      */
     public JSONObject queryForJsonObject(String sql, Object... args) {
         List<JSONObject> jsonList = queryForJsonList(sql, args);

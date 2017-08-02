@@ -64,9 +64,9 @@ public class Encrypt {
 		}
 		String encryptText = null;
 		try {
-			MessageDigest m = MessageDigest.getInstance(algorithmName);
-			m.update(inputText.getBytes("UTF8"));
-			byte s[] = m.digest();
+			MessageDigest messageDigest = MessageDigest.getInstance(algorithmName);
+			messageDigest.update(inputText.getBytes("UTF8"));
+			byte s[] = messageDigest.digest();
 			// m.digest(inputText.getBytes("UTF8"));
 			return hex(s);
 		} catch (NoSuchAlgorithmException e) {
