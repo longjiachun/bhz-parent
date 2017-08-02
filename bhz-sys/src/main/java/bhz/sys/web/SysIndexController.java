@@ -49,7 +49,6 @@ public class SysIndexController {
      * 
      * @param request 页面请求
      * @param response 页面响应
-     * @param dataYear 年份
      * @return ModelAndView 模型视图
      */
     @RequestMapping("/sysindex.html")
