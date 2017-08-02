@@ -52,7 +52,8 @@ public final class Const {
 
     /** JSON消息文本 */
     public static final String JSON_MESSAGE = "message";
-    
+
+    /** 系统支撑 */
     public static final String TAG_SYS = "sys";
     
     public static final String TAG_MST = "mst";
