@@ -19,18 +19,18 @@ import com.alibaba.fastjson.JSONObject;
 public interface SysUserFacade {
 	
 	@POST
-	public String generateKey() throws Exception;
+	String generateKey() throws Exception;
 	
 	@GET
 	@Path("/getById/{id}")
-	public JSONObject getById(@PathParam(value = "id") String id) throws Exception;
+	JSONObject getById(@PathParam(value = "id") String id) throws Exception;
 	
 	@POST
 	@Path("/getList")
-	public List<JSONObject> getList() throws Exception;
+	List<JSONObject> getList() throws Exception;
 	
 	@POST
-	public int insert(JSONObject jsonObject) throws Exception;
+	int insert(JSONObject jsonObject) throws Exception;
 	
 	
 }
