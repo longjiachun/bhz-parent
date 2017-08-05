@@ -6,15 +6,16 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+import com.luhuiguo.fastdfs.service.TrackerClient;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
-import org.csource.common.NameValuePair;
-import org.csource.fastdfs.ClientGlobal;
-import org.csource.fastdfs.StorageClient1;
-import org.csource.fastdfs.StorageServer;
-import org.csource.fastdfs.TrackerClient;
-import org.csource.fastdfs.TrackerGroup;
-import org.csource.fastdfs.TrackerServer;
+//import org.csource.common.NameValuePair;
+//import org.csource.fastdfs.ClientGlobal;
+//import org.csource.fastdfs.StorageClient1;
+//import org.csource.fastdfs.StorageServer;
+//import org.csource.fastdfs.TrackerClient;
+//import org.csource.fastdfs.TrackerGroup;
+//import org.csource.fastdfs.TrackerServer;
 
 /**
  * <B>系统名称：</B><BR>
